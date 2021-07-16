@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".Registro_de_usuarios">
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,39 +17,70 @@
         android:layout_gravity="center"
         android:textAlignment="center"
         />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        tools:srcCompat="@mipmap/pic1" />
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+
         android:text="Nombre:"
         android:textSize="18dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
         android:hint="Nombre"
         android:inputType="text"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+
         android:text="Apellidos:"
         android:textSize="16dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+
         android:hint="Apellidos"
         android:inputType="text"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+
         android:text="Password"
         android:textSize="16dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
         android:hint="Password"
         android:inputType="textPassword"
 
@@ -55,6 +88,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
         android:hint="Confirma tu password"
         android:inputType="textPassword"
 
@@ -62,6 +98,9 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+
+        android:backgroundTint="@color/black"
         android:text="Registrarse"
         android:layout_gravity="center"
         />
@@ -69,6 +108,8 @@
         android:id="@+id/btn_rsalir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
         android:text="Salir"
         android:layout_gravity="center"
         />

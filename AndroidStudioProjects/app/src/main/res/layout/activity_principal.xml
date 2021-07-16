@@ -14,10 +14,28 @@
         android:textSize="20dp"
         android:textAlignment="center"
         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@mipmap/pic1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginLeft="64dp"
+        />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="32dp"
         android:text="Consultar usuarios"
+        android:backgroundTint="@color/black"
         />
 </LinearLayout>

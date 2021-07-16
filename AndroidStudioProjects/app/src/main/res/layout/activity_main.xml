@@ -3,50 +3,66 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:textSize="24sp"
-        tools:text="Login"
         android:layout_gravity="center"
+        android:text=""
         android:textAlignment="center"
+        android:textSize="24sp"
+        tools:text=""
 
         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="86dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@mipmap/pic1" />
 
     <EditText
         android:id="@+id/ed_usuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:autofillHints=""
         android:hint="@string/usuario"
-        android:inputType="text"
 
-        android:autofillHints="" />
+        android:inputType="text" />
+
     <EditText
         android:id="@+id/ed_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="64dp"
+        android:autofillHints=""
         android:hint="@string/password"
-        android:inputType="textPassword"
 
-        android:autofillHints="" />
+        android:inputType="textPassword" />
+
     <Button
         android:id="@+id/btn_iniciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Entrar"
+        android:layout_marginTop="32dp"
         android:layout_gravity="center"
-        />
+        android:backgroundTint="@color/black"
+        android:text="Entrar" />
+
     <TextView
         android:id="@+id/btn_registrar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrarse"
+        android:layout_height="match_parent"
         android:layout_gravity="center"
-        />
+        android:text="Registrarse" />
 
 </LinearLayout>
